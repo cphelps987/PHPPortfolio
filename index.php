@@ -1,5 +1,5 @@
 <!doctype html>
-<id lang="en-us">
+<html>
 
     <?php include 'include/header.php';?>
 
