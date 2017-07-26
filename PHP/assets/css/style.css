@@ -1,0 +1,109 @@
+body {
+    background-image: url("http://www.charlottebrayley.co.uk/images/vignetteBG.jpg");
+    height: 100%;
+    }
+
+.navbar-brand {
+    margin-left: 20px;
+    margin-top: 40px;
+    color: white;
+    }
+.navbar {
+    background-color: rgba(116,118,120,0.96);
+    }
+
+a.nav-link active {
+    color: white;
+    }
+
+a.nav-link {
+    color: white;
+    }
+#card {
+    margin-top: -20px;
+}
+
+.container-fluid {
+    margin: 20px;
+    }
+
+.group {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    }
+
+img {
+    width: 3in;
+    vertical-align: inherit;
+    }
+
+p {
+    max-width: 760px;
+    padding: 10px 0px;
+    }
+
+#selfie {
+    width: 100%;
+    height: auto;
+    margin: 5px 20px 20px 0;
+    }
+
+a:hover {
+    color: powderblue;
+    }
+
+a {
+    color: black;
+    }
+
+/*noinspection ALL*/
+#1, #2 {
+    width: 33.33%;
+    height: auto;
+    vertical-align: none;
+    }
+
+#project, #project1 {
+    margin: 5px 0px 40px 0px;
+    text-decoration: none;
+    resize: inherit;
+    }
+
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: 100%;
+    /* Negative indent footer by its height */
+    margin: 0 auto -60px;
+    /* Pad bottom by footer height */
+    padding: 0 0 60px;
+    }
+
+/* Set the fixed height of the footer here */
+#footer {
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    background-color: powderblue;
+    position: absolute;
+    }
+#footer1 {
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    background-color: powderblue;
+    position: absolute;
+    }
+
+@media screen and (max-width: 769px) {
+    #footer {
+        position: relative;
+    }
+}
